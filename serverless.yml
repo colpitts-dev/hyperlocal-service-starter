@@ -30,9 +30,6 @@ package:
   individually: true
 
 custom:
-  CommunitiesTable:
-    name: !Ref CommunitiesTable
-    arn: !GetAtt CommunitiesTable.Arn
   esbuild:
     bundle: true
     minify: false
